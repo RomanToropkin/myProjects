@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <style name="mTheme" parent="Theme.AppCompat.Light.NoActionBar">
@@ -7,11 +8,7 @@
         <item name="android:textColorPrimary">@color/primary_text</item>
         <item name="android:textColorSecondary">@color/secondary_text</item>
         <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:navigationBarColor">@color/primary_dark</item>
         <item name="android:colorForeground">@color/primary</item>
     </style>
-
-    <style name="mTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="mTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
-
 </resources>
